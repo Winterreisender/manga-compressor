@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "manga-compressor"
+version = "0.1.0"
+description = ""
+authors = ["winterreisender <winterreisender@foxmail.com>"]
+readme = "README.md"
+packages = [{include = "manga_compressor"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^9.4.0"
+flet = "^0.4.0"
+mozjpeg-lossless-optimization = "^1.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
